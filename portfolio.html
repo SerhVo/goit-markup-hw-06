@@ -345,19 +345,26 @@
           <li>
             <div class="footer-tab-part3">
               <p class="footer-title">Підпишіться на розсилку</p>
-              <div class="footer-form">
-                <form name="signup_form" autocomplete="on" novalidate>
-                  <label>
-                    <input class="footer-input-mail" type="email" name="email" placeholder="E-mail"/>
+              
+                <form name="signup_form" class="footer-form">
+                  <label for="email">
+                    <input
+                      class="footer-input-mail"
+                      id="email"
+                      type="email"
+                      name="email"
+                      placeholder="E-mail"
+                    />
                   </label>
-                </form>
-                  
-                  <button class="footer-btn-sub" type="submit">Підписатися
+
+                  <button class="footer-btn-sub" type="submit">
+                    Підписатися
                     <svg class="footer-icon-telegr">
                       <use href="./images/sprites.svg#icon-telegram-icon"></use>
                     </svg>
                   </button>
-              </div>
+                </form>
+              
             </div>
           </li>
 
